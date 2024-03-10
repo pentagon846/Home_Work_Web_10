@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-site-10"
+version = "0.1.0"
+description = ""
+authors = ["pentagon846 <pentagon846@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.3"
+bson = "^0.5.10"
+pymongo = "^4.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
